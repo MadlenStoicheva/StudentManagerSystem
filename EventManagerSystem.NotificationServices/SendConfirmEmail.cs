@@ -12,8 +12,8 @@ namespace EventManagerSystem.NotificationServices
     public class SendConfirmEmail
     {
       
-      //  private string confirmationEmailUrl = "http://localhost:57298/User/ValidateEmail";
-       private string confirmationEmailUrl = "http://studentmanagersystemdb.apphb.com/User/ValidateEmail";
+        private string confirmationEmailUrl = "http://localhost:57298/User/ValidateEmail";
+       ///private string confirmationEmailUrl = "http://eventmanagersystemdb.apphb.com/User/ValidateEmail";
 
         public void SendConfirmationEmailAsync(User user)
         {
