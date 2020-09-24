@@ -35,7 +35,7 @@ namespace EventManagerSystem.Web.Controllers
             return View(model);
         }
 
-        ///[HttpPost]
+       [HttpPost]
         public ActionResult Index(EmailSendingViewModel emailSendingViewModel)
         {
             EmailSender emailSender = new EmailSender();

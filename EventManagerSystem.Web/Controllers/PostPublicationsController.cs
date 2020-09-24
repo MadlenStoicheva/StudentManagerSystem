@@ -31,7 +31,7 @@ namespace EventManagerSystem.Web.Controllers
             return View(model);
         }
 
-       // [AuthenticationFilter(RequireAdminRole = true)]
+        [AuthenticationFilter(RequireAdminRole = false)]
         public ActionResult Create()
         {
                     return View();
@@ -60,7 +60,7 @@ namespace EventManagerSystem.Web.Controllers
             return RedirectToAction("Index");
         }
 
-      //  [AuthenticationFilter(RequireAdminRole = false)]
+        [AuthenticationFilter(RequireAdminRole = false)]
         [System.Web.Mvc.HttpGet]
         public ActionResult Edit(int? id)
         {
@@ -110,7 +110,7 @@ namespace EventManagerSystem.Web.Controllers
             return RedirectToAction("Index");
         }
 
-      //  [AuthenticationFilter(RequireAdminRole = true)]
+        [AuthenticationFilter(RequireAdminRole = false)]
         [System.Web.Mvc.HttpGet]
         public ActionResult Delete(int id)
         {

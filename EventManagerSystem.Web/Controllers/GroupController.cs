@@ -28,7 +28,7 @@ namespace EventManagerSystem.Web.Controllers
             return View(model);
         }
 
-        //
+        /*
         private List<SelectListItem> PopuateStudentsList()
         {
             List<SelectListItem> result = new List<SelectListItem>();
@@ -62,7 +62,7 @@ namespace EventManagerSystem.Web.Controllers
 
             return result;
         }
-        //
+        */
 
         [AuthenticationFilter(RequireAdminRole = true)]
         public ActionResult Create()
