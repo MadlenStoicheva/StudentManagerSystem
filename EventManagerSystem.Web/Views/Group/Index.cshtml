@@ -1,0 +1,60 @@
+﻿@model EventManagerSystem.Web.Models.GroupViewModels.GroupListViewModel
+@{ /**/
+
+                ViewBag.Title = "Index"; }
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <br/>
+    <h1 style="text-align:center; margin-top:25px; color:#333;">Groups</h1>
+
+
+    <button class="btn-success" style="border-radius:25px; background-color:#333; border-color:#333; height:3em; width:7em; margin-bottom:20px; ">
+        @Html.ActionLink("Create", "Create", "Group", new { @style = "color:white; text-decoration:none; font-weight:bold;" })
+    </button>
+
+    @*} }*@
+    <table class="table">
+        <thead>
+            <tr class="btn-success" style="background-color:#333; border-color:#333;">
+                <th style="text-align:center;">Name</th>
+                <th style="text-align:center;">Student</th>
+                <th style="text-align:center;">Teacher</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var students in Model.Groups)
+            {
+<tr class="bg-info text-white" style="text-align:center;">
+    <td>@students.Name</td>
+    <td>@students.Student </td>
+    <td>@students.Teacher </td>
+    <td>
+
+
+        <button class="btn-default" style="border-radius:15px; height:2.5em; width:5em;">
+            @Html.ActionLink("Delete", "Delete", "Group", new { id = students.Id }, null)
+        </button>
+        <button class="btn-default" style="border-radius:15px; height:2.5em; width:5em;">
+            @Html.ActionLink("Edit", "Edit", "Group", new { id = students.Id }, null)
+        </button>
+
+    </td>
+</tr>            }
+        </tbody>
+    </table>
+
+
+</body>
+</html>

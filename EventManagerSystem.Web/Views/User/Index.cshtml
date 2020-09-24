@@ -1,0 +1,50 @@
+﻿@model EventManagerSystem.Web.Models.UserListViewModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" id="bootstrap-css">
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+<h1 style="text-align:center; margin-top:25px; color:#333;">Users</h1>
+
+<button class="btn-success" style="border-radius:25px; background-color:#333; border-color:#333; height:3em; width:7em; margin-bottom:20px; ">
+    @Html.ActionLink("Create new", "Create", "Users", new { @style = "color:white; text-decoration:none; font-weight:bold;" })
+</button>
+
+<table class="table">
+    <thead>
+        <tr class="btn-success" style="background-color:#333; border-color:#333;">
+            <th style="text-align:center;">Image</th>
+            <th style="text-align:center;">Username</th>
+            <th style="text-align:center;">Email</th>
+            <th style="text-align:center;">First Name</th>
+            <th style="text-align:center;">Last Name</th>
+            <th style="text-align:center;">Is Admin</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.Users)
+        {
+            <tr class="bg-info text-white" style="text-align:center; background-color:transparent;">
+                <td><img src="@user.ImgURL" alt="image" style="width:60px; height:60px;" /></td>
+                <td>@user.Username</td>
+                <td>@user.Email</td>
+                <td>@user.FirstName</td>
+                <td>@user.LastName</td>
+                <td>@user.IsAdmin</td>
+                <td>
+                    <button class="btn-default" style="border-radius:15px; height:2.5em; width:5em;">
+                        @Html.ActionLink("Edit", "Edit", "User", new { id = user.Id }, null)
+                    </button>
+                    <button class="btn-default" style="border-radius:15px; height:2.5em; width:5em;">
+                        @Html.ActionLink("Delete", "Delete", "User", new { id = user.Id }, null)
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

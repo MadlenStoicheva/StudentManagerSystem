@@ -1,0 +1,36 @@
+﻿
+@model EventManagerSystem.Web.Models.TicketsViewModels.TicketsListViewModel
+@{
+    ViewBag.Title = "Index";
+}
+<br />
+<h1 style="text-align:center; margin-top:25px; color:#333; ">All Tickets</h1>
+<br />
+<br />
+
+<table class="table">
+    <thead>
+        <tr class="btn-success" style="background-color:#333; border-color:#333;">
+            <th style="text-align:center;">Event</th>
+            <th style="text-align:center;">Organizer</th>
+            <th style="text-align:center;">User</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ticket in Model.Tickets)
+        {
+            <tr class="bg-info text-white" style="text-align:center;">
+                <td>@ticket.Event.Title</td>
+                <td>@ticket.Event.Organizer</td>
+                <td>@ticket.User.Username</td>
+                <td>
+                    
+                    <button class="btn-default" style="border-radius:15px; height:2.5em; width:5em;">
+                        @Html.ActionLink("Delete", "Delete", "Ticket", new { id = ticket.Id }, null)
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

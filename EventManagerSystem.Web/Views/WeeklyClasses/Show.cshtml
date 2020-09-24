@@ -1,0 +1,43 @@
+﻿@model EventManagerSystem.Web.Models.WeeklyClassesViewModels.CRUDWeeklyclassesViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2></h2>
+
+<br/>
+
+<div>
+    <div class="dl-horizontal">
+
+        <h1 style="margin:2%; text-align:center;">
+            @Html.DisplayFor(model => model.Title)
+        </h1>
+        <hr />
+        <div class="col-lg-6">
+            <img src="@Model.ImgURL" alt="image" style="width:100%;  padding-bottom:1em;" />
+        </div>
+        <p style="margin:2%; text-wrap:wrap; font-family: Verdana; font-size:14px;">
+          @Html.DisplayFor(model => model.Content)
+        </p>
+        <p><b>
+            @Html.DisplayNameFor(model => model.MeetingURL)</b>
+        </p>
+        <a href="@Model.MeetingURL"><b>Meeting</b></a>
+        <br />
+        <br />
+        <p>
+            <b> @Html.DisplayNameFor(model => model.FilesURL)</b>
+        </p>
+        <a href="@Model.FilesURL"><b>Files</b></a>
+
+
+    </div>
+</div>
+<br/>
+<br/>
+<button class="btn-default" style="border-radius:15px; height:2.5em; width:10em;">
+
+    @Html.ActionLink("Back to List", "Index")
+</button>

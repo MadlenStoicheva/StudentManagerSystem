@@ -1,0 +1,40 @@
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\bin\Debug\EventManagerSystem.Data.Entity.dll.config
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\bin\Debug\EventManagerSystem.Data.Entity.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\bin\Debug\EventManagerSystem.Data.Entity.pdb
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\bin\Debug\EntityFramework.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\bin\Debug\EventManagerSystem.Entity.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\bin\Debug\EventManagerSystem.Entity.pdb
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\bin\Debug\EventManagerSystem.Entity.dll.config
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\bin\Debug\EntityFramework.xml
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\obj\Debug\EventManagerSystem.Data.Entity.csprojAssemblyReference.cache
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\obj\Debug\EventManagerSystem.Data.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\obj\Debug\EventManagerSystem.Data.Entity.csproj.CopyComplete
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\obj\Debug\EventManagerSystem.Data.Entity.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\obj\Debug\EventManagerSystem.Data.Entity.pdb
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\bin\Debug\WebMatrix.Data.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\bin\Debug\WebMatrix.WebData.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\bin\Debug\WebMatrix.Data.xml
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\bin\Debug\WebMatrix.WebData.xml
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\obj\Debug\EventManagerSystem.Data.Entity.Migrations.automatic.resources
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Data.Entity\obj\Debug\EventManagerSystem.Data.Entity.csproj.GenerateResource.cache
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\bin\Debug\EventManagerSystem.Data.Entity.dll.config
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\bin\Debug\EventManagerSystem.Data.Entity.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\bin\Debug\EventManagerSystem.Data.Entity.pdb
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\bin\Debug\EntityFramework.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\bin\Debug\EntityFramework.SqlServer.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\bin\Debug\EventManagerSystem.Entity.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\bin\Debug\WebMatrix.Data.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\bin\Debug\WebMatrix.WebData.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\bin\Debug\EventManagerSystem.Entity.pdb
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\bin\Debug\EventManagerSystem.Entity.dll.config
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\bin\Debug\EntityFramework.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\bin\Debug\EntityFramework.SqlServer.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\bin\Debug\WebMatrix.Data.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\bin\Debug\WebMatrix.WebData.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\obj\Debug\EventManagerSystem.Data.Entity.csprojAssemblyReference.cache
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\obj\Debug\EventManagerSystem.Data.Entity.csproj.CoreCompileInputs.cache
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\obj\Debug\EventManagerSystem.Data.Entity.csproj.CopyComplete
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\obj\Debug\EventManagerSystem.Data.Entity.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Data.Entity\obj\Debug\EventManagerSystem.Data.Entity.pdb

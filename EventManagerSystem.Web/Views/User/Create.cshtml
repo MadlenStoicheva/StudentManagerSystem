@@ -1,0 +1,112 @@
+﻿@model EventManagerSystem.Web.Models.UserCreateViewModel
+
+@{
+                /**/
+
+                ViewBag.Title = "Create";
+}
+
+<h2 style="text-align:center; margin-top:30px; color:#333;  margin-bottom: 50px; font-size:35px;">Create</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    @*<h4>User</h4>*@
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ImgURL, "Image", htmlAttributes: new { @class = "control-label col-md-5", @style = "color: #333; font-size:22px;" })
+
+        @Html.EditorFor(model => model.ImgURL, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.ImgURL, "", new { @class = "text-danger" })
+
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Username, "Username", htmlAttributes: new { @class = "control-label col-md-5", @style = "color: #333; font-size:22px;" })
+
+        @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+        @Html.ValidationMessage("error_msg")
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Password, "Password", htmlAttributes: new { @class = "control-label col-md-5", @style = "color: #333; font-size:22px;" })
+
+        <div style=" margin-top:10px; margin-left:42%; font-size:22px; border-radius:8px;">
+            @Html.PasswordFor(model => model.Password, new { htmlAttributes = new { @class = "form-control col-md-5", @style = "width:100px;" } })
+            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+
+        </div>
+
+
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Email, "Email", htmlAttributes: new { @class = "control-label col-md-5", @style = "color: #333; font-size:22px;" })
+
+        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control col-md-offset-5" } })
+        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+        @Html.ValidationMessage("error_email")
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.FirstName, "First Name", htmlAttributes: new { @class = "control-label col-md-5", @style = "color: #333; font-size:22px;" })
+
+        @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control col-md-offset-5" } })
+        @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.LastName, "Last Name", htmlAttributes: new { @class = "control-label col-md-5", @style = "color: #333; font-size:22px;" })
+
+        @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control col-md-offset-5" } })
+        @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.IsAdmin, "Is Admin", htmlAttributes: new { @class = "control-label col-md-5", @style = "color: #333; font-size:22px;" })
+        <div class="col-md-offset-5">
+            <div class="checkbox">
+                @Html.CheckBoxFor(model => model.IsAdmin, new { htmlAttributes = new { @class = "form-control", @name = "checkbox" } })
+                @Html.ValidationMessageFor(model => model.IsAdmin, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.IsStudent, "Is Student", htmlAttributes: new { @class = "control-label col-md-5", @style = "color: #333; font-size:15px; " })
+        <div class="col-md-offset-5">
+            <div class="checkbox">
+                @Html.EditorFor(model => model.IsStudent)
+                @Html.ValidationMessageFor(model => model.IsStudent, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.IsTeacher, "Is Teacher", htmlAttributes: new { @class = "control-label col-md-5", @style = "color: #333; font-size:15px; " })
+        <div class="col-md-offset-5">
+            <div class="checkbox">
+                @Html.EditorFor(model => model.IsTeacher)
+                @Html.ValidationMessageFor(model => model.IsTeacher, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-5 col-md-10">
+            <input type="submit" value="Save" class="btn-success" style="border-radius:15px; background-color:#333; border-color:#333; height:2.5em; width:5em;" />
+
+            <button class="btn-default" style="border-radius:15px; height:2.5em; width:5em;">
+                @Html.ActionLink("Cancel", "Index", "User")
+            </button>
+        </div>
+    </div>
+</div>
+}

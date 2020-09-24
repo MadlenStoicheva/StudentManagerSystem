@@ -1,0 +1,49 @@
+﻿.card {
+    max-width: 100%;
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card1 .card-header {
+    background-color: #563d7c;
+    color: white !important;
+}
+
+.card1 .card-body {
+    background-color: #8465b3;
+    color: white !important;
+}
+
+.card2, .card3, .card4, .card-header, .card3 .card-footer {
+    border-color: #563d7c !important;
+}
+
+    .card2 .card-body, .card3 .card-body {
+        color: #563d7c !important;
+    }
+
+    .card4 .list-group-item {
+        border-color: #563d7c !important;
+    }
+
+    .card4 .card-link {
+        color: #8465b3;
+        font-weight: bold;
+    }
+
+.list-group .active {
+    background-color: #8465b3;
+    color: white !important;
+    border: none;
+}
+
+.form-check-input:disabled ~ .form-check-label, .form-check-input[disabled] ~ .form-check-label {
+    color: black !important;
+}
+
+.toast-header img {
+    width: 15px;
+}

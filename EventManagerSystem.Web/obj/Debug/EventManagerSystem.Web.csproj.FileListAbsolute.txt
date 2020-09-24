@@ -1,0 +1,190 @@
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\EventManagerSystem.Web.dll.config
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\EventManagerSystem.Web.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\EventManagerSystem.Web.pdb
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\csc.exe
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\csc.exe.config
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\csc.rsp
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\csi.exe
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\csi.exe.config
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\csi.rsp
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.AppContext.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Console.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\vbc.exe
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\vbc.exe.config
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\vbc.rsp
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\EntityFramework.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\System.Web.Helpers.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\System.Web.Mvc.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\System.Web.Razor.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\System.Web.Webpages.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\EntityFramework.xml
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\System.Web.Razor.xml
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\System.Web.Webpages.xml
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\System.Web.Helpers.xml
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\System.Web.Mvc.xml
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\obj\Debug\EventManagerSystem.Web.csprojAssemblyReference.cache
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\obj\Debug\EventManagerSystem.Web.csproj.CoreCompileInputs.cache
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\obj\Debug\EventManagerSystem.Web.csproj.CopyComplete
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\obj\Debug\EventManagerSystem.Web.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\obj\Debug\EventManagerSystem.Web.pdb
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\EventManagerSystem.Data.Entity.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\EventManagerSystem.Entity.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\EventManagerSystem.Data.Entity.pdb
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\EventManagerSystem.Data.Entity.dll.config
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\EventManagerSystem.Entity.pdb
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\EventManagerSystem.Entity.dll.config
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\EventManagerSystem.Common.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\EventManagerSystem.NotificationServices.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\EventManagerSystem.Common.pdb
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\EventManagerSystem.NotificationServices.pdb
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\WebMatrix.Data.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\WebMatrix.WebData.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\WebMatrix.Data.xml
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\WebMatrix.WebData.xml
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.Web\bin\Microsoft.Web.Helpers.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EventManagerSystem.Web.dll.config
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EventManagerSystem.Web.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EventManagerSystem.Web.pdb
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\csc.exe
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\csc.exe.config
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\csc.rsp
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\csi.exe
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\csi.exe.config
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\csi.rsp
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.AppContext.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Console.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Diagnostics.Process.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.IO.Compression.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.IO.FileSystem.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.IO.Pipes.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Security.AccessControl.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Security.Claims.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Threading.Thread.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.ValueTuple.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Xml.XPath.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\vbc.exe
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\vbc.exe.config
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\vbc.rsp
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\VBCSCompiler.exe
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EntityFramework.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EntityFramework.SqlServer.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EventManagerSystem.Common.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EventManagerSystem.Data.Entity.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EventManagerSystem.Entity.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EventManagerSystem.NotificationServices.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\Microsoft.Web.Helpers.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Web.Helpers.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Web.Mvc.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Web.Razor.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Web.WebPages.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Web.WebPages.Razor.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\WebMatrix.Data.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\WebMatrix.WebData.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EventManagerSystem.Common.pdb
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EventManagerSystem.Data.Entity.pdb
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EventManagerSystem.Data.Entity.dll.config
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EventManagerSystem.Entity.pdb
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EventManagerSystem.Entity.dll.config
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EventManagerSystem.NotificationServices.pdb
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EntityFramework.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EntityFramework.SqlServer.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Web.Helpers.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Web.Razor.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Web.WebPages.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Web.WebPages.Razor.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\WebMatrix.Data.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\WebMatrix.WebData.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Web.Mvc.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\obj\Debug\EventManagerSystem.Web.csprojAssemblyReference.cache
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\obj\Debug\EventManagerSystem.Web.csproj.CoreCompileInputs.cache
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\obj\Debug\EventManagerSystem.Web.csproj.CopyComplete
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\obj\Debug\EventManagerSystem.Web.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\obj\Debug\EventManagerSystem.Web.pdb
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EventManagerSystem.Common.dll.config
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\EventManagerSystem.NotificationServices.dll.config
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\Newtonsoft.Json.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Net.Http.Formatting.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Web.Http.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Web.Http.WebHost.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\Newtonsoft.Json.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Net.Http.Formatting.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Web.Http.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.Web\bin\System.Web.Http.WebHost.xml

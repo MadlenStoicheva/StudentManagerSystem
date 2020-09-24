@@ -1,0 +1,85 @@
+﻿@model EventManagerSystem.Web.Models.GroupViewModels.CRUDGroupViewModel
+
+
+@{
+                /**/
+
+                ViewBag.Title = "Create";
+} 
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Group</h4>
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Teacher, htmlAttributes: new { @class = "control-label col-md-5", @style = "color: #333; font-size:22px;" })
+            <div class="col-md-offset-5">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    <select id="Teacher" name="Teacher" class="form-control col-md-offset">
+                        <option value="Madlen Stoycheva">Madlen Stoycheva</option>
+                        <option value="Elena Dimitrova">Elena Dimitrova</option>
+
+                    </select>
+                </div>
+            </div>
+        </div>
+
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Student, "Student", htmlAttributes: new { @class = "control-label col-md-5", @style = "color: #333; font-size:22px;" })
+                    <div class="col-md-offset-5">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            <select name="Student" id="Student" class="form-control col-md-offset">
+                                <option value="Milen Stoychev">Milen Stoychev</option>
+                                <option value="Stoyan Ivanov">Stoyan Ivanov</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+
+
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-5", @style = "color: #333; font-size:22px;" })
+            <div class="col-md-offset-5">
+                <select name="Name" id="Name" class="form-control col-md-offset">
+                    <option value="1A">1A</option>
+                    <option value="1B">1B</option>
+                    <option value="2A">1A</option>
+                    <option value="2B">2B</option>
+                    <option value="3A">3A</option>
+                    <option value="3B">3B</option>
+                </select>@Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+
+            <div class="col-md-offset-5 " style="margin-bottom:30px;">
+                <input type="submit" value="Create" class="btn-success" style="border-radius:15px; background-color:#333; border-color:#333; height:2.5em; width:7em;" />
+
+                <button class="btn-default" style="border-radius:15px; height:2.5em; width:5em;">
+                    @Html.ActionLink("Cancel", "Index")
+                </button>
+            </div>
+        </div>
+    </div>
+    }
+</body>
+</html>

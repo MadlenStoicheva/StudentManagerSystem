@@ -1,0 +1,389 @@
+﻿
+@{
+    ViewBag.Title = "ThirdPublication";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Framework</title>
+    <link rel="icon" href="~/css/img/left-image.png">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+    <link rel="stylesheet" type="text/css" href="~/css/layout.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".nav-tabs a").click(function () {
+                $(this).tab('show');
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto my-2 my-lg-0 mr-5">
+                    <li class="nav-item active">
+                        <a class="nav-link font-weight-bold" href="FirstPublication">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="SecondPublication">Layout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="ThirdPublication">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section class="container-fluid">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="~/css/img/carousel_1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block
+	      justify-content-center">
+                            <h2 class="m-3"><a class="bg-white border rounded-pill p-2 text-dark" href="https://bootstrapious.com/p/bootstrap-tips-and-tricks">TIPS AND TRICKS</a></h2>
+                            <p class="text-dark">Bootstrap is full of incredible features but can seem too complex for many of us.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/css/img/carousel_2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="m-3"><a class="bg-white border rounded-pill p-2 text-dark" href="https://bootstrapious.com/p/bootstrap-tips-and-tricks">Bootstrap 4 Tutorial</a></h2>
+                            <p class="text-white">Create a website using Bootstrap</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="~/css/img/carousel_3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="m-3"><a class="bg-white border rounded-pill p-2 text-dark" href="https://bootstrapious.com/p/bootstrap-tips-and-tricks">Bootstrap 4 Documentation</a></h2>
+                            <p class="text-white">Create a website using Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="container" id="second-menu">
+            <div class="row">
+                <nav id="navbar-example" class="navbar navbar-light bg-light mx-auto mt-5">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#images">Images</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link">|</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#js-tab-example">JS Tab</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link">|</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#media-objects">Media objects</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <div data-spy="scroll" data-target="#navbar-example" data-offset="0">
+
+            <section id="images">
+                <div class="container">
+                    <h2 class="text-center text-uppercase mt-5">Bootstrap 4 Images</h2>
+                    <hr class="hr-line">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h4 class="text-center text-uppercase  m-3">Bootstrap 4 Image Shapes</h4>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="https://image.freepik.com/free-vector/mobile-app-developing-illustration_32854-104.jpg" class="rounded-circle w-100">
+                                </div>
+                                <div class="col">
+                                    <img src="https://static.vecteezy.com/system/resources/previews/000/518/972/non_2x/modern-flat-web-page-design-template-concept-of-ux-ui-design-decorated-people-character-for-website-and-mobile-website-development-flat-landing-page-template-vector-illustration.jpg" class="rounded-circle w-100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-5">
+                            <img src="https://easetemplate.com/wp-content/uploads/2018/01/life-coach-responsive-web-design-templates.jpg" class="rounded w-100">
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="https://www.qatarday.com/uploads/posts/large/1578401467543.png" class="img-thumbnail">
+                                </div>
+                                <div class="col">
+                                    <img src="https://www.ssdntech.com/blog/wp-content/uploads/2019/05/What-is-Web-Designing-Learn-About-Web-Designing-Career-Scope-Salary-and-Jobs.png" class="img-thumbnail">
+                                </div>
+                                <div class="col">
+                                    <img src="https://www.blue-search.com/wp-content/uploads/2019/12/Webdesigner.jpeg" class="img-thumbnail">
+                                </div>
+                                <div class="col">
+                                    <img src="https://www.empreendedoresweb.com.br/wp-content/uploads/2019/12/diferenca-entre-desenvolvedor-web-e-web-designer-1068x566.jpg" class="img-thumbnail" s>
+                                </div>
+                            </div>
+                            <div class="row mt-5 d-flex flex-wrap">
+                                <div class="col-xl-4 col-md-6">
+                                    <img src="https://www.istasyontasarim.com/uploads/posts/bir-web-sayfamiz-var-iste!!!-1533642807/1533892538-1533812227-1533650331-b3.jpg" class="mx-auto w-100 ">
+                                </div>
+                                <div class="col pl-5 p-3">
+                                    <ul>
+                                        <li>
+                                            <u>Rounded Corners</u>
+                                            <ul class="ml-5">
+                                                <li> The <b>.rounded</b> class adds rounded corners to an image.</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <u>Circle</u>
+                                            <ul class="ml-5">
+                                                <li>The <b>.rounded-circle</b> class shapes the image to a circle.</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <u>Thumbnail</u>
+                                            <ul class="ml-5">
+                                                <li>
+                                                    The <b>.img-thumbnail</b> class shapes the image to a thumbnail (bordered).
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <u>Responsive Images</u>
+                                            <ul class="ml-5">
+                                                <li>The <b>.img-fluid</b> class applies <b>max-width: 100%;</b> and height: auto; to the image.</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="js-tab-example">
+            <div class="container mt-5">
+                <h2 class="text-center text-uppercase">Bootstrap JS Tab</h2>
+                <hr class="hr-line">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#menu">Containers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu1">Grid</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu2">Row columns</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu3">Offsetting columns</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="menu" class="container tab-pane active">
+                        <br>
+                        <h3>Containers</h3>
+                        <p>
+                            Containers are the most basic layout element in Bootstrap and are required when using <b>Bootstrap default grid system</b>.
+                            <br />Bootstrap comes with three different containers:
+                        </p>
+                        <ul class="ml-5">
+                            <li><b>.container</b>, which sets a <b>max-width</b> at each responsive breakpoint</li>
+                            <li>
+                                <b>.container-fluid</b>, which is <b>width: 100%</b> at all breakpoints
+                            </li>
+                            <li>
+                                <b>.container-{breakpoint}</b>, which is <b>width: 100%</b> until the specified breakpoint
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="menu1" class="container tab-pane fade">
+                        <br>
+                        <h3>Grid options</h3>
+                        <p>While Bootstrap uses ems or rems for defining most sizes, pxs are used for grid breakpoints and container widths. This is because the viewport width is in pixels and does not change with the font size.</p>
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">
+                                        Extra small<br />
+                                        576px
+                                    </th>
+                                    <th scope="col">
+                                        Small<br />
+                                        ≥576px
+                                    </th>
+                                    <th scope="col">
+                                        Medium<br />
+                                        ≥768px
+                                    </th>
+                                    <th scope="col">
+                                        Large<br />
+                                        ≥992px
+                                    </th>
+                                    <th scope="col">
+                                        Extra large<br />
+                                        ≥1200px
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Max width</th>
+                                    <td>None (auto)</td>
+                                    <td>540px</td>
+                                    <td>720px</td>
+                                    <td>960px</td>
+                                    <td>1140px</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Class prefix</th>
+                                    <td>.col-</td>
+                                    <td>.col-sm-</td>
+                                    <td>.col-md-</td>
+                                    <td>.col-lg-</td>
+                                    <td>.col-xl-</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="menu2" class="container tab-pane fade">
+                        <br>
+                        <h3>Row columns</h3>
+                        <p>Use the responsive <b>.row-cols-*</b> classes to quickly set the number of columns that best render your content and layout. Whereas normal <b>.col-*</b> classes apply to the individual columns (e.g., <b>.col-md-4</b>), the row columns classes are set on the parent <b>.row</b> as a shortcut.</p>
+                        <div class="container bg-success border border-secondary">
+                            <div class="row row-cols-2">
+                                <div class="col border border-secondary p-2">Column</div>
+                                <div class="col border border-secondary p-2">Column</div>
+                                <div class="col border border-secondary p-2">Column</div>
+                                <div class="col border border-secondary p-2">Column</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="menu3" class="container tab-pane fade">
+                        <br>
+                        <h3>Offset grid columns</h3>
+                        <p>You can offset grid columns in two ways: our responsive <b>.offset-</b> grid classes and our margin utilities. Grid classes are sized to match columns while margins are more useful for quick layouts where the width of the offset is variable.</p>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">.col-md-4</div>
+                                    <div class="col-md-4 offset-md-4">.col-md-4 .offset-md-4</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+                                    <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 offset-md-3">.col-md-6 .offset-md-3</div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Media objects-->
+        <section id="media-objects">
+            <div class="container mb-5">
+                <h2 class="text-center text-uppercase mt-5">Media object</h2>
+                <hr class="hr-line">
+                <div class="row">
+
+                    <div class="col-12 media">
+                        <img src="https://krify.co/wp-content/uploads/2016/11/bootstrap-1.jpg" class="col-3 mr-3" alt="...">
+                        <div class="col media-body">
+                            <h5 class="mt-0">Media heading</h5>
+                            Because the media object has so few structural requirements, you can also use these classes on list HTML elements. On your ul or ol, add the .list-unstyled to remove any browser default list styles, and then apply .media to your li's. As always, use spacing utilities wherever needed to fine tune.
+
+                            <div class="row">
+                                <div class="col-12 media mt-3">
+                                    <a class="col-3 mr-3" href="#">
+                                        <img src="https://krify.co/wp-content/uploads/2016/11/bootstrap-1.jpg" alt="...">
+                                    </a>
+                                    <div class="col media-body">
+                                        <h5 class="mt-0">Media heading</h5>
+                                        Below is an example of a single media object. Only two classes are required—the wrapping .media and the .media-body around your content. Optional padding and margin can be controlled through spacing utilities.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="contact" class="container">
+            <h2 class="text-center">CONTACT US</h2>
+            <hr class="hr-line">
+            <div class="row">
+                <div class="col-sm-5">
+                    <h3>Here is where you can find us.</h3>
+                    <p><i class="fa fa-map-pin"></i>Bul. Bulgaria 256 B, Plovdiv</p>
+                    <p><i class="fa fa-phone"></i>456-500-777</p>
+                    <p><i class="fa fa-envelope"></i> student@gmail.com</p>
+
+                    <div class="social-media-buttons">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <label>Your Name</label>
+                            <input class="form-control" id="name" name="name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <label>Your Email</label>
+                            <input class="form-control" id="email" name="email" type="email" required>
+                        </div>
+                    </div>
+                    <label>Comment</label>
+                    <textarea class="form-control" id="comments" name="comments" rows="5"></textarea><br>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <button class="btn btn-default pull-right submit" type="submit">Send Comment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,33 @@
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.NotificationServices\bin\Debug\EventManagerSystem.NotificationServices.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.NotificationServices\bin\Debug\EventManagerSystem.NotificationServices.pdb
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.NotificationServices\bin\Debug\EventManagerSystem.Entity.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.NotificationServices\bin\Debug\EventManagerSystem.Entity.pdb
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.NotificationServices\bin\Debug\EventManagerSystem.Entity.dll.config
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.NotificationServices\obj\Debug\EventManagerSystem.NotificationServices.csprojAssemblyReference.cache
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.NotificationServices\obj\Debug\EventManagerSystem.NotificationServices.csproj.CoreCompileInputs.cache
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.NotificationServices\obj\Debug\EventManagerSystem.NotificationServices.csproj.CopyComplete
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.NotificationServices\obj\Debug\EventManagerSystem.NotificationServices.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.NotificationServices\obj\Debug\EventManagerSystem.NotificationServices.pdb
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.NotificationServices\bin\Debug\WebMatrix.Data.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.NotificationServices\bin\Debug\WebMatrix.WebData.dll
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.NotificationServices\bin\Debug\WebMatrix.Data.xml
+C:\Users\Madlen\source\repos\EventManagerSystem.Web\EventManagerSystem.NotificationServices\bin\Debug\WebMatrix.WebData.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\bin\Debug\EventManagerSystem.NotificationServices.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\bin\Debug\EventManagerSystem.NotificationServices.pdb
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\bin\Debug\EventManagerSystem.Entity.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\bin\Debug\WebMatrix.Data.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\bin\Debug\WebMatrix.WebData.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\bin\Debug\EventManagerSystem.Entity.pdb
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\bin\Debug\EventManagerSystem.Entity.dll.config
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\bin\Debug\WebMatrix.Data.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\bin\Debug\WebMatrix.WebData.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\obj\Debug\EventManagerSystem.NotificationServices.csprojAssemblyReference.cache
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\obj\Debug\EventManagerSystem.NotificationServices.csproj.CoreCompileInputs.cache
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\obj\Debug\EventManagerSystem.NotificationServices.csproj.CopyComplete
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\obj\Debug\EventManagerSystem.NotificationServices.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\obj\Debug\EventManagerSystem.NotificationServices.pdb
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\bin\Debug\EventManagerSystem.NotificationServices.dll.config
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\bin\Debug\EntityFramework.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\bin\Debug\EntityFramework.SqlServer.dll
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\bin\Debug\EntityFramework.xml
+D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\bin\Debug\EntityFramework.SqlServer.xml

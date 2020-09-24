@@ -1,0 +1,68 @@
+﻿@model EventManagerSystem.Web.Models.EventsViewModels.EventsDeleteViewModel
+
+@{
+    /**/
+
+    ViewBag.Title = "Delete";
+}
+
+<h2 style="text-align:center; margin-top:30px; color:#333;  margin-bottom: 20px; font-size:35px;">Delete Ticket</h2>
+
+<h4 style="text-align:center;">Are you sure you want to delete the Ticket for this event?</h4>
+<hr />
+<div class="col-md-offset-4">
+    @*<h4>UserDeleteViewModel</h4>*@
+
+    <dl class="dl-horizontal">
+        <dt style="color: #333; font-size:20px;">
+            @Html.DisplayName("Image")
+        </dt>
+        <dd>
+            <img src="@Model.ImgURL" alt="image" style="width:160px; height:200px; padding-bottom:1em;" />
+        </dd>
+        <dt style="color: #333; font-size:20px;">
+            @Html.DisplayName("Title")
+        </dt>
+        <dd style="font-size:20px;">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt style="color: #333; font-size:20px;">
+            @Html.DisplayName("Date")
+        </dt>
+        <dd style="font-size:20px;">
+            @Html.DisplayFor(model => model.EventDate)
+        </dd>
+        <dt style="color: #333; font-size:20px;">
+            @Html.DisplayName("Place")
+        </dt>
+        <dd style="font-size:20px;">
+            @Html.DisplayFor(model => model.EventPlace)
+        </dd>
+        <dt style="color: #333; font-size:20px;">
+            @Html.DisplayName("Organizer")
+        </dt>
+        <dd style="font-size:20px;">
+            @Html.DisplayFor(model => model.Organizer)
+        </dd>
+        <dt style="color: #333; font-size:20px;">
+            @Html.DisplayName("Description")
+        </dt>
+        <dd style="font-size:20px;">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="col-md-offset-2 col-md-10" style="margin-bottom:30px;">
+            <input type="submit" value="Delete" class="btn-success" style="border-radius:15px; background-color:#333; border-color:#333; height:2.5em; width:5em;" />
+
+            <button class="btn-default" style="border-radius:15px; height:2.5em; width:5em;">
+                @Html.ActionLink("Cancel", "Index")
+            </button>
+        </div>
+    }
+</div>

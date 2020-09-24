@@ -1,0 +1,40 @@
+﻿@model EventManagerSystem.Web.Models.ClassworkViewModels.ClassworkListViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2></h2>
+
+<button class="btn-default" style="border-radius:15px; height:2.5em; width:10em;">
+    @Html.ActionLink("Create New", "Create")
+</button>
+<br/>
+<br/>
+<table class="table">
+    <thead>
+        <tr class="btn-success" style="background-color:#333; border-color:#333;">
+            <th style="text-align:center;">Title</th>
+            <th style="text-align:center;">Content</th>
+            <th style="text-align:center;"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Classworks)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Content)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Show", "Show", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

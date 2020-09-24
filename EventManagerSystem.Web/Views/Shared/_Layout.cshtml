@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+    <style>
+        /*footer*/
+        footer {
+            color: black;
+            padding: 10px 0px 25px 0px;
+       
+        }
+
+        .footer_ul2_amrc {
+            margin: 0px;
+            list-style-type: none;
+            padding: 0px;
+        }
+
+        .foote_bottom_ul_amrc li a:hover {
+            text-decoration: none;
+            color:black;
+        }
+
+        .foote_bottom_ul_amrc {
+            list-style-type: none;
+            padding: 0px;
+            display: table;
+            margin-top: 10px;
+            margin-right: auto;
+            margin-bottom: 10px;
+            margin-left: auto;
+        }
+
+            .foote_bottom_ul_amrc li {
+                display: inline;
+            }
+
+                .foote_bottom_ul_amrc li a {
+                    color: #999;
+                    margin: 0 12px;
+                }
+
+        .container-fluid {
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: auto;
+            margin-left: auto
+        }
+        
+    </style>
+
+    <!-- for home page links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("StudentManagerSystem", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" style="float:right;">
+
+                    <li style="left:1em;">@Html.ActionLink("Home", "Index", "Home", null, new { @style = "color:white;" })</li>
+                    <li style="left:1em;">@Html.ActionLink("Calendar", "GetAllEventsCalendar", "Events", null, new { @style = "color:white;" })</li>
+
+
+                    @{
+                        if (EventManagerSystem.Web.Filters.LoginFilter.IsNotLogedUser() == false)
+                        {
+
+                            if (EventManagerSystem.Web.Filters.LoginFilter.IsAdmin() == true)
+                            {
+                                <li style="left:1em;">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: white;">Users <i class="fa fa-caret-down"></i></a>
+                                    <ul class="dropdown-menu" style="background-color:#333; width:100%; text-align:center;">
+                                        <li style="left:1em;">@Html.ActionLink("All Users", "Index", "User", null, new { @style = "color:white;" })</li>
+
+                                        <li style="left:1em;">@Html.ActionLink("Students", "Index", "Student", null, new { @style = "color:white;" })</li>
+
+                                        <li style="left:1em;">@Html.ActionLink("Teachers", "Index", "Teacher", null, new { @style = "color:white;" })</li>
+
+                                    </ul>
+                                </li>
+
+                                <li style="left:1em;">@Html.ActionLink("Classes", "Index", "Events", null, new { @style = "color:white;" })</li>
+                                <li style="left:1em;">@Html.ActionLink("Groups", "Index", "Group", null, new { @style = "color:white;" })</li>
+
+                            }
+
+                            if (EventManagerSystem.Web.Filters.LoginFilter.IsAdmin() == true)
+                            {
+                                <li style="left:1em;">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hello, @Session["LogedUserUsername"] ! (admin) <i class="fa fa-caret-down"></i></a>
+                                    <ul class="dropdown-menu" style="background-color:#333; width:100%; text-align:center;">
+
+                                        <li style="left:1em;">@Html.ActionLink("Profile", "ShowProfile", "User", null, new { @style = "color:white;" })</li>
+                                        <li class="btn-danger" style="left:1em;">@Html.ActionLink("Logout", "Logout", "Home", null, new { @style = "color:white;" })</li>
+
+                                    </ul>
+                                </li>
+
+                            }
+                            else if (EventManagerSystem.Web.Filters.LoginFilter.IsUserStudent() == true)
+                            {
+                                <li style="left:1em;">@Html.ActionLink("Publications", "Index", "PostPublications", null, new { @style = "color:white;" })</li>
+                                <li style="left:1em;">@Html.ActionLink("Homeworks", "Index", "Homework", null, new { @style = "color:white;" })</li>
+                                <li style="left:1em;">@Html.ActionLink("Classworks", "Index", "Classwork", null, new { @style = "color:white;" })</li>
+                                <li style="left:1em;">@Html.ActionLink("Classes", "Index", "Events", null, new { @style = "color:white;" })</li>
+                                <li style="left:1em;">@Html.ActionLink("WeeklyClasses", "Index", "WeeklyClasses", null, new { @style = "color:white;" })</li>
+
+
+
+                                <li style="left:1em; width:160px;">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hello, @Session["LogedUserUsername"] !  <i class="fa fa-caret-down"></i></a>
+
+                                    <ul class="dropdown-menu" style="background-color:#333; width:100%; text-align:center;">
+                                        <li style="left:1em;">@Html.ActionLink("My Classes", "ShowUserTickets", "Ticket", null, new { @style = "color:white;" })</li>
+
+                                        <li style="left:1em;" class="item">@Html.ActionLink("Profile", "ShowProfile", "User", null, new { @class = "my-class", @style = "color:white;" })</li>
+                                        <li class="btn-danger item" style="left:1em;">@Html.ActionLink("Logout", "Logout", "Home", null, new { @class = "my-class", @style = "color:white;" })</li>
+
+                                    </ul>
+                                </li>
+                            }
+                            else if (EventManagerSystem.Web.Filters.LoginFilter.IsUserTeacher() == true)
+                            {
+                                <li style="left:1em;">@Html.ActionLink("Publications", "Index", "PostPublications", null, new { @style = "color:white;" })</li>
+                                <li style="left:1em;">@Html.ActionLink("Classes", "Index", "Events", null, new { @style = "color:white;" })</li>
+                                <li style="left:1em;">@Html.ActionLink("Groups", "Index", "Group", null, new { @style = "color:white;" })</li>
+                                <li style="left:1em;">@Html.ActionLink("Homeworks", "Index", "Homework", null, new { @style = "color:white;" })</li>
+                                <li style="left:1em;">@Html.ActionLink("Classworks", "Index", "Classwork", null, new { @style = "color:white;" })</li>
+                                <li style="left:1em;">@Html.ActionLink("WeeklyClasses", "Index", "WeeklyClasses", null, new { @style = "color:white;" })</li>
+
+
+                                <li style="left:1em; width:160px;">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hello, @Session["LogedUserUsername"] !  <i class="fa fa-caret-down"></i></a>
+
+                                    <ul class="dropdown-menu" style="background-color:#333; width:100%; text-align:center;">
+                                        <li style="left:1em;">@Html.ActionLink("My Classes", "ShowUserTickets", "Ticket", null, new { @style = "color:white;" })</li>
+
+                                        <li style="left:1em;" class="item">@Html.ActionLink("Profile", "ShowProfile", "User", null, new { @class = "my-class", @style = "color:white;" })</li>
+                                        <li class="btn-danger item" style="left:1em;">@Html.ActionLink("Logout", "Logout", "Home", null, new { @class = "my-class", @style = "color:white;" })</li>
+
+                                    </ul>
+                                </li>
+                            }
+                        }
+                    }
+
+
+                    @{
+                        if (EventManagerSystem.Web.Filters.LoginFilter.IsNotLogedUser() != false)
+                        {
+                            <li style="left:1em;">@Html.ActionLink("Publications", "Index", "PostPublications", null, new { @style = "color:white;" })</li>
+                            <li style="left:1em;">@Html.ActionLink("About", "About", "Home", null, new { @style = "color:white;" })</li>
+                            <li style="left:1em;">@Html.ActionLink("Contact", "Contact", "Home", null, new { @style = "color:white;" })</li>
+
+                            <li style="left:1em;">@Html.ActionLink("Login", "Login", "Home", null, new { @style = "color:white;" })</li>
+                            //  <li style="left:1em;">@Html.ActionLink("Register", "Register", "User", null, new { @style = "color:white;" })</li>
+
+                        } }
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <ul class="foote_bottom_ul_amrc">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Calendar", "GetAllEventsCalendar", "Events")</li>
+                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+            </ul>
+            <p style="text-align:center;">&copy; @DateTime.Now.Year - Created by Madlen Stoycheva</p>
+
+        </footer>
+    </div>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    @RenderSection("Scripts", false)
+</body>
+</html>

@@ -1,0 +1,51 @@
+﻿@model EventManagerSystem.Web.Models.EmailSendingViewModel.EmailSendingViewModel
+@{
+                /**/
+
+                ViewBag.Title = "Contact";
+}
+
+<br /><br /><br />
+<!-- Container (Contact Section) -->
+<div class="container">
+    <h2 class="text-center" style="padding-bottom:1em;">Contact</h2>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <p><span class="glyphicon glyphicon-map-marker"></span>Plovdiv, Bulgaria</p>
+            <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+            <p><span class="glyphicon glyphicon-envelope"></span>Email: madlen.stoicheva@gmail.com</p>
+        </div>
+        <div class="col-md-8">
+            @*<form action="https://formspree.io/madlen.stoicheva@gmail.com" method="POST">*@
+            @using (Html.BeginForm())
+            {
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        @*<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>*@
+                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", placeholder = "Email" } })
+                        @Html.ValidationMessageFor(model => model.Email)
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        @*<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>*@
+                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", placeholder = "Name" } })
+                        @Html.ValidationMessageFor(model => model.Name)
+                    </div>
+                </div>
+                @*<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>*@
+                @Html.TextAreaFor(model => model.Comment, new { htmlAttributes = new { @class = "form-control" }, style = "width: 100%; border-radius: 5px", rows = 5, placeholder = "Comment" })
+                <br />
+                @Html.ValidationMessageFor(model => model.Comment)
+                @Html.ValidationMessage("error_contact")
+                <br>
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                        <button class="btn pull-right" type="submit" style=" padding: 10px 20px;  background-color: #333; color: #f1f1f1; border-radius: 0; transition: .2s;">Send</button>
+                    </div>
+                </div>
+            }
+            @*</form>*@
+        </div>
+    </div>
+</div>
+

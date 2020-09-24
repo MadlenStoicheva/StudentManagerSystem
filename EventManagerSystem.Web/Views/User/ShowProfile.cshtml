@@ -1,0 +1,77 @@
+﻿@model EventManagerSystem.Web.Models.UserEditViewModel
+@{
+    ViewBag.Title = "ShowProfile";
+}
+
+<h2 style="margin-left:20px;">Profile</h2>
+<hr />
+
+<dl class="dl-horizontal">
+
+    <dt style="color: #333; font-size:20px;">
+        @Html.DisplayName("Image")
+    </dt>
+    <dd>
+        <img src="@Model.ImgURL" alt="image" style="width:160px; height:200px; padding-bottom:1em;" />
+    </dd>
+
+    <dt style="color: #333; font-size:20px;">
+        @Html.DisplayName("Username")
+    </dt>
+
+    <dd style="font-size:20px;">
+        @Html.DisplayFor(model => model.Username)
+    </dd>
+
+    <dt style="color: #333; font-size:20px;">
+        @Html.DisplayName("Password")
+    </dt>
+
+    <dd style="font-size:20px;">
+        @Html.DisplayName("**************")
+    </dd>
+
+    <dt style="color: #333; font-size:20px;">
+        @Html.DisplayName("Email")
+    </dt>
+
+    <dd style="font-size:20px;">
+        @Html.DisplayFor(model => model.Email)
+    </dd>
+
+    <dt style="color: #333; font-size:20px;">
+        @Html.DisplayName("First Name")
+    </dt>
+
+    <dd style="font-size:20px;">
+        @Html.DisplayFor(model => model.FirstName)
+    </dd>
+
+    <dt style="color: #333; font-size:20px;">
+        @Html.DisplayName("Last Name")
+    </dt>
+
+    <dd style="font-size:20px;">
+        @Html.DisplayFor(model => model.LastName)
+    </dd>
+
+</dl>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="col-md-offset-2 col-md-10" style="margin-bottom:30px;">
+
+    <button class="btn-default" style="border-radius:15px; height:2.5em; width:5em;">
+        @Html.ActionLink("Edit", "EditProfile", "User")
+    </button>
+    <button class="btn-default" style="border-radius:15px; height:2.5em; width:5em;">
+        @Html.ActionLink("Cancel", "Index")
+    </button>
+    <!-- |
+     <button class="btn-default" style="border-radius:15px; height:2.5em; width:9em;">
+         Html.ActionLink("Delete Profile", "Delete", "User", new { id = Model.Id }, null)
+     </button>-->
+</div>
+}
