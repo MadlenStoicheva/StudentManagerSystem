@@ -5,6 +5,7 @@
     ViewBag.Title = "Index";
 }
 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
 
@@ -164,12 +165,7 @@
                         <button class="btn-default" style="border-radius:15px; height:2.5em; width:5em;">
                             @Html.ActionLink("Read", "ShowEvent", "Events", new { id = events.Id }, null)
                         </button>
-                        @{ if (EventManagerSystem.Web.Filters.LoginFilter.IsNotLogedUser() != true)
-                                            {
-                            <!--
-                                <button class="btn-default" style="border-radius:15px; height:2.5em; width:5em;">
-                                    Html.ActionLink("Join", "Create", "Ticket", new { id = events.Id }, null)
-                                </button>--> } }
+                      
 
                         @{ if (EventManagerSystem.Web.Filters.LoginFilter.IsAdmin())
                                             {
