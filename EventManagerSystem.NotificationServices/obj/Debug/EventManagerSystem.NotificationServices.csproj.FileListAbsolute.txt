@@ -31,3 +31,22 @@ D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerS
 D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\bin\Debug\EntityFramework.SqlServer.dll
 D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\bin\Debug\EntityFramework.xml
 D:\Diplom Work\EventManagerSystem-master\EventManagerSystem-master\EventManagerSystem.NotificationServices\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\bin\Debug\EventManagerSystem.NotificationServices.dll.config
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\bin\Debug\EventManagerSystem.NotificationServices.dll
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\bin\Debug\EventManagerSystem.NotificationServices.pdb
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\bin\Debug\EntityFramework.dll
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\bin\Debug\EventManagerSystem.Entity.dll
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\bin\Debug\WebMatrix.Data.dll
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\bin\Debug\WebMatrix.WebData.dll
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\bin\Debug\EventManagerSystem.Entity.pdb
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\bin\Debug\EventManagerSystem.Entity.dll.config
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\bin\Debug\EntityFramework.xml
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\bin\Debug\WebMatrix.Data.xml
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\bin\Debug\WebMatrix.WebData.xml
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\obj\Debug\EventManagerSystem.NotificationServices.csprojAssemblyReference.cache
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\obj\Debug\EventManagerSystem.NotificationServices.csproj.CoreCompileInputs.cache
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\obj\Debug\EventManagerSystem.NotificationServices.csproj.CopyComplete
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\obj\Debug\EventManagerSystem.NotificationServices.dll
+C:\Users\NBM\Documents\GitHub\StudentManagerSystem\EventManagerSystem.NotificationServices\obj\Debug\EventManagerSystem.NotificationServices.pdb

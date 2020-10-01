@@ -3,6 +3,7 @@
 @{
     ViewBag.Title = "Create";
 }
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 
 <h2>Create</h2>
 
@@ -10,43 +11,43 @@
 {
     @Html.AntiForgeryToken()
 
-<div class="form-horizontal col-lg-12">
-    <h4></h4>
-    <hr />
-    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-<div class="form-group col-lg-6">
-    @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })
-    <div class="col-md-10">
-        @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
-        @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
-    </div>
-    <br/>
-    <br/>
-    <label for="myfile" class = "control-label col-md-2" style="margin-top:1em;" >Upload a file:</label>
-   
-    <input type="file" id="myfile" name="myfile" class = "col-md-6" style="margin-top:2em;" >
-</div>
+    <div class="form-horizontal col-lg-12">
+        <h4></h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group col-lg-6">
+            @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+            </div>
+            <br />
+            <br />
+            <label for="myfile" class="control-label col-md-2" style="margin-top:1em;">Upload a file:</label>
 
-    <div class="form-group col-lg-6">
-        @Html.LabelFor(model => model.Content,"Description", htmlAttributes: new { @class = "control-label col-md-2" })
-        <div class="col-md-10">
-            @Html.TextAreaFor(model => model.Content,15, 120, new { htmlAttributes = new { @class = "col-md-6", @style = "width: 500px!important;" } })
-            @Html.ValidationMessageFor(model => model.Content, "", new { @class = "text-danger" })
+            <input type="file" id="myfile" name="myfile" class="col-md-6" style="margin-top:2em;">
+        </div>
+
+        <div class="form-group col-lg-6">
+            @Html.LabelFor(model => model.Content, "Description", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.Content, 15, 120, new { htmlAttributes = new { @class = "col-md-6", @style = "width: 500px!important;" } })
+                @Html.ValidationMessageFor(model => model.Content, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        <br />
+        <br />
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+            <div>
+                @Html.ActionLink("Back to List", "Index")
+            </div>
         </div>
     </div>
-    
-    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-    <br/>
-    <br/>
-    <div class="form-group">
-        <div class="col-md-offset-2 col-md-10">
-            <input type="submit" value="Create" class="btn btn-default" />
-        </div>
-        <div>
-            @Html.ActionLink("Back to List", "Index")
-        </div>
-    </div>
-</div>
 }
 <div class="container col-lg-12">
     <div class="col-lg-12">
